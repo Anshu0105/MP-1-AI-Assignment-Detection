@@ -1,0 +1,242 @@
+{
+  "model": "Model C (CCRM)",
+  "n_folds": 10,
+  "total_docs": 1900,
+  "seed": 42,
+  "summary": {
+    "accuracy": {
+      "mean": 0.998421,
+      "std": 0.002412,
+      "per_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.994737,
+        0.994737,
+        0.994737,
+        1.0,
+        1.0
+      ]
+    },
+    "precision": {
+      "mean": 0.997917,
+      "std": 0.004167,
+      "per_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.989583,
+        1.0,
+        0.989583,
+        1.0,
+        1.0
+      ]
+    },
+    "recall": {
+      "mean": 0.998947,
+      "std": 0.003158,
+      "per_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.989474,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "f1": {
+      "mean": 0.998424,
+      "std": 0.002408,
+      "per_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.994764,
+        0.994709,
+        0.994764,
+        1.0,
+        1.0
+      ]
+    },
+    "roc_auc": {
+      "mean": 0.999091,
+      "std": 0.002228,
+      "per_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.998338,
+        0.992576,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 95,
+      "FP": 0,
+      "FN": 0,
+      "elapsed_sec": 18.4
+    },
+    {
+      "fold": 2,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 95,
+      "FP": 0,
+      "FN": 0,
+      "elapsed_sec": 16.2
+    },
+    {
+      "fold": 3,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 95,
+      "FP": 0,
+      "FN": 0,
+      "elapsed_sec": 7.5
+    },
+    {
+      "fold": 4,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 95,
+      "FP": 0,
+      "FN": 0,
+      "elapsed_sec": 11.1
+    },
+    {
+      "fold": 5,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 95,
+      "FP": 0,
+      "FN": 0,
+      "elapsed_sec": 11.7
+    },
+    {
+      "fold": 6,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 0.994737,
+      "precision": 0.989583,
+      "recall": 1.0,
+      "f1": 0.994764,
+      "roc_auc": 0.998338,
+      "TP": 95,
+      "TN": 94,
+      "FP": 1,
+      "FN": 0,
+      "elapsed_sec": 13.2
+    },
+    {
+      "fold": 7,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 0.994737,
+      "precision": 1.0,
+      "recall": 0.989474,
+      "f1": 0.994709,
+      "roc_auc": 0.992576,
+      "TP": 94,
+      "TN": 95,
+      "FP": 0,
+      "FN": 1,
+      "elapsed_sec": 11.2
+    },
+    {
+      "fold": 8,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 0.994737,
+      "precision": 0.989583,
+      "recall": 1.0,
+      "f1": 0.994764,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 94,
+      "FP": 1,
+      "FN": 0,
+      "elapsed_sec": 9.2
+    },
+    {
+      "fold": 9,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 95,
+      "FP": 0,
+      "FN": 0,
+      "elapsed_sec": 11.1
+    },
+    {
+      "fold": 10,
+      "val_size": 190,
+      "train_size": 1710,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "TP": 95,
+      "TN": 95,
+      "FP": 0,
+      "FN": 0,
+      "elapsed_sec": 11.1
+    }
+  ],
+  "total_FP": 2,
+  "total_FN": 1
+}
